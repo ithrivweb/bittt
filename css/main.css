@@ -4,6 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	color: #ffffff;
 	/*Choose a font Family?*/
 	font-family: 'Fredoka One', cursive;
 	font-family: 'Baloo Paaji', cursive;
@@ -106,11 +107,11 @@ header {
 	text-align: center;
 }
 
-header .overlay {
+.overlay {
 	position: absolute;
 	height: 600px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .6);
 	
 }
 
@@ -139,4 +140,42 @@ header .overlay h1 {
 .overlay h1 span {
 	color: #AF0015;
 	font-size: 35px; 
+}
+
+/*About Section*/
+.about {
+	background-image: url(../img/bittt_toast_glass.jpg);
+	background-attachment: fixed;	 
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	background-color: #f97a89;
+}
+
+.about .wrapper {
+	padding: 50px 100px;
+
+}
+
+.about .wrapper img {
+	width: 500px;
+	height: 350px;
+	margin-top: 50px;
+	float: left;
+	border: solid;
+	border-color: #ffffff;
+	border-width: 2px;
+}
+
+.about .wrapper p {
+	margin-top: 50px;
+	float: right;
+	width: 500px;
+	color: #ffffff;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.about .wrapper span {
+	color: #AF0015;
 }
