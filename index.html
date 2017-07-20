@@ -5,35 +5,62 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo|Baloo+Bhai|Baloo+Bhaina|Baloo+Chettan|Baloo+Da|Baloo+Paaji|Baloo+Tamma|Baloo+Thambi|Bungee+Shade|Cabin+Sketch|Chango|Coiny|Covered+By+Your+Grace|Faster+One|Fredericka+the+Great|Fredoka+One|Frijole|Knewave|Londrina+Shadow|Macondo+Swash+Caps|Modak|Monoton|Vast+Shadow" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 
 	<body>
 	<!-- Navigation Section -->
 		 <nav>
-		 	<!-- Add Logo to the NavBar position:absolute to hang down from navbar. Keep Links Same size and place within Logo at the bottom-->
-		 	<div class="bgImage"></div>
+		 	
 		 	<!-- Have Navigation fixed at the top. Change Color of Hover. -->
-		 	<ul>
-		 		<li><a href="#">HOME</a></li>
-		 		<li><a href="#">CHEFS</a></li>
-		 		<li><a href="#">SHOW</a></li>
-		 		<li><a href="#">ChEF MIMI</a></li>
-		 		<li><a href="#">VIDEOS</a></li>
-		 		<!-- Add a dropdown Menu -->
-		 		<li><a href="#">MORE</a></li>
-		 	</ul>
+		 	<div class="leftNav">
+			 	<ul>
+			 		<li><a href="#">HOME</a></li>
+			 		<li><a href="#">CHEFS</a></li>
+			 		<li><a href="#">SHOW</a></li>
+			 	</ul>
+		 	</div>
+
+		 	<!-- Add Logo to the NavBar position:absolute to hang down from navbar. Keep Links Same size and place within Logo at the bottom-->
+			 <div >	
+			 	<div class="logo">
+			 		<a href="#"><img src="img/bittt_logo.png"></a>
+			 	</div>
+			 	<div class="socialIcons">
+			 		<a href="https://www.facebook.com/BringingItToTheTableShow"><i class="fa fa-facebook"></i></a>
+			 		<a href="https://twitter.com/BITTTshow"><i class="fa fa-twitter"></i></a>
+			 		<a href="https://www.youtube.com/thechefmimi"><i class="fa fa-youtube"></i></a>
+			 		<a href="https://www.instagram.com/bringingittothetable/"><i class="fa fa-instagram"></i></a>
+			 	</div>
+			</div> 	
+		 	<div class="rightNav">
+			 	<ul>	
+			 		<li><a href="#">CHEF MIMI</a></li>
+			 		<li><a href="#">VIDEOS</a></li>
+			 		<!-- Add a dropdown Menu for More -->
+			 		<li><a href="#">MORE</a></li>
+			 	</ul>
+		 	</div>
 		 </nav>
 
 	<!-- Header Section -->
 		<header>
-		<!-- Place image in the background fixed. Need Another Image without Writing on it. -->
-		<!-- Add PromoVideoTrailer and short Descript on top of image. -->	
+			<!-- Place image in the background fixed. Need Another Image without Writing on it. -->
+			<div class="overlay">
+				<iframe class="promoTrailer" src="https://www.youtube.com/embed/lgeleO5saN8?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+
+				<h1><q><span>NEW</span></q> COOKING COMPETITION WITH <span>FLAVOR</span>!</h1>
+			</div>
+			<!-- Add PromoVideoTrailer and short Descript on top of image. -->	
 		</header>
 	<!-- Cast and Crew Section  -->
 		<section>
 			<!-- Possibly Add a Carousel to display crew. Add longer Description and video introducing chefs to the show somewhere.  -->
 		</section>
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="https://www.googleapis.com/youtube/v3/?access_token=AIzaSyBkO-iiGUfM0NyFLhdSlWOIP_uoQ7O4e_8"></script>
 	</body>
 </html>

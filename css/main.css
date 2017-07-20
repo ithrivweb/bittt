@@ -1,0 +1,142 @@
+/*Set Page margin and padding to 0*/
+
+/*global css*/
+* {
+	margin: 0;
+	padding: 0;
+	/*Choose a font Family?*/
+	font-family: 'Fredoka One', cursive;
+	font-family: 'Baloo Paaji', cursive;
+	font-family: 'Baloo Bhai', cursive;
+	font-family: 'Baloo Chettan', cursive;
+	font-family: 'Baloo Thambi', cursive;
+	font-family: 'Chango', cursive;
+	
+
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition-duration: .5s; 
+	transition-duration: .5s;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+
+
+/*Nav Section*/
+nav {
+	position: fixed; 
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 50px;
+	width: 100%;
+	z-index: 1;
+}
+nav .logo {
+	position: absolute;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+}
+
+
+nav a img {
+	height: 130px;
+	width: 200px;
+	animation-duration: 2s;
+}
+
+nav a:hover {
+	color: #f97a89;
+}
+
+nav .leftNav {
+	margin-left: 100px;
+	float: left;
+}
+
+nav .rightNav {
+	margin-right: 65px;
+	float: right;
+}
+
+nav ul {
+	/*display: inline;*/
+	margin-top: 15px;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	margin-right: 35px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+
+.socialIcons{
+	position: absolute;
+	top: 107px;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+}
+
+.socialIcons a i{
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.socialIcons a:hover {
+	color: #000000;
+}
+/*nav active color #AF0015
+
+
+/*Header Section*/
+header {
+	background-image: url(../img/bittt_new_header_image.jpg);
+	background-attachment: fixed;	 
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	background-color: #f97a89;
+	text-align: center;
+}
+
+header .overlay {
+	position: absolute;
+	height: 600px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	
+}
+
+header .overlay .promoTrailer {
+	position: absolute;
+	width: 400px; 
+	height: 225px;
+	border: solid;
+	border-color: #AF0015;
+	border-width: 2px;
+	top: 371px;
+	left: 0;
+}
+
+header .overlay h1 {
+	position: absolute;
+	top: 355px;
+	left: 35%;
+	padding-right: 50px;
+   /* margin-right: -50%;
+    transform: translate(-50%, 0);*/
+	color: #ffffff;
+	letter-spacing: 3px;
+}
+
+.overlay h1 span {
+	color: #AF0015;
+	font-size: 35px; 
+}
